@@ -17,3 +17,22 @@ Capturas reales del APK ejecutado en Android Emulator (1080 × 2400). Pulsa una 
 ## Quiz General
 
 <img src="docs/capturas/07-quiz.png" width="300" alt="Quiz General">
+
+## Código del proyecto
+
+Aplicación Android en Kotlin y Jetpack Compose (Material 3). Incluye búsqueda y filtros de lenguajes, favoritos, historia y sintaxis, frameworks, ejercicios, videos y cuestionarios.
+
+### Ejecutar
+
+1. Abre la raíz del repositorio en Android Studio.
+2. Instala Android SDK Platform 37 y configura la ubicación del SDK desde Android Studio.
+3. Sincroniza Gradle y ejecuta el módulo `app` en un emulador o dispositivo con Android API 24 o superior.
+
+Para compilar desde Windows: `gradlew.bat assembleDebug` (con el SDK configurado). Gradle usa un toolchain JDK 25.
+
+### Estructura
+
+- `app/src/main/java/com/example/tarea/`: actividad principal, modelos, datos, navegación y pantallas.
+- `app/src/main/res/`: recursos Android.
+- `gradle/`: versiones y Gradle Wrapper.
+- `docs/capturas/`: capturas de las vistas.
